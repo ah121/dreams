@@ -1,0 +1,192 @@
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    
+
+   .forLogo{
+       text-align: center;
+       clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+
+      }
+
+  
+
+   .main-menu{
+     font-size: 12px;
+     text-align: center;
+   }
+
+   .main-menu ul {
+      margin-top: 5px;
+      margin-bottom: 0;
+   }
+   .main-menu ul li{
+      padding: 0;
+      margin-left: 16px;
+    }
+    
+    .icon{
+       text-align: center;
+    }
+     
+    .icon ul{
+       margin-bottom: 0;
+    }
+    .icon ul li{
+     padding: 3px 23px;
+    }
+  
+    .button1-center{
+       text-align: center;
+    }
+    .button1{
+     padding: 3px 4px;
+     margin-top: 10px;
+     margin-bottom: 15px;
+     
+    }
+
+    .signup{
+       padding-bottom: 70px;
+    }
+   
+    .description{
+     margin-top: 10px;
+    }
+
+    .firstitem{
+       margin-top: 20px;
+    }
+
+    .description h2{
+       font-size:27px ;
+    }
+
+    .extraclass {
+       margin-left: 0;
+    }
+
+    .thirditem{
+       margin-top: 25px;
+    }
+
+    .information{
+       padding: 70px 40px;
+    }
+
+    .signup-heading h5{
+      font-weight: bold;
+      font-size: 12px;
+   }
+  
+   .signup-heading h2 {
+      font-size: 25px;
+      font-weight: 900;
+
+   }
+
+   form input[type="text"], [type="email"],select{
+      width: 90%;
+
+   }
+
+   .trainer-heading h5{
+      font-size: 12px;
+      font-weight: bold;
+      padding-left: 0;
+   }
+  
+   .trainer-heading h2{
+      font-size: 25px;
+      font-weight: 900;
+    }
+
+    .trainer-one{
+
+     flex-direction: column;
+    }
+
+    .tainer-img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+   }
+
+   .tainer-img img{
+      width: 100%;
+      height: 100%;
+     }
+  
+
+    .trainer-info{
+      padding-right: 11px;
+      display: block;
+   }
+
+
+
+}
+
+
+ @media only screen and (min-width:768px) and (max-width:992px){
+    
+
+    .forLogo{
+        text-align: left;
+
+       }
+
+       .logo{
+        width: 100px;
+        height: 36px;
+     }
+
+    .main-menu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main-menu ul li{
+        margin-left: 3px;
+     }
+    
+     .main-menu ul li a{
+        font-weight: bold;
+        font-size: 10px;
+        padding-top: 10px;
+
+     }
+     
+
+     .icon ul li{
+        padding: 15px 9px;
+        font-size: 12px;
+        margin-top: 10px;
+     }
+     
+     .fa-search::after{
+        right:-10px;
+        height: 10px;
+
+     }
+
+     .button1{
+        padding: 9px 23px;
+        margin-top: 32px;
+        font-size: 10px;
+     }
+    
+     .description{
+        padding: 70px 12px 70px 22px;
+        margin-top: 0;
+     }
+
+  
+
+     .footer-logo ul li{ 
+        line-height: 28px;
+     }
+     .footer-company ul li{
+         line-height: 28px;
+     }
+
+
+ }
